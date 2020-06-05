@@ -1,0 +1,297 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+       background-image: url(images/bg\ 13.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       
+       
+       }
+   
+       .navbar{
+           background: linear-gradient(100deg,red 20%,yellow 100%);
+       font-size: 20px;
+       padding: 0px !important;
+       }
+
+       .menu-icon{
+        margin-top: 10px;
+    
+        font-size: 25px;
+    
+    }
+       .logo img{
+        
+           width: auto;
+       }
+       .nav-item{
+        margin-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+       .nav-item a{
+           color: black ;
+           font-weight: 500;
+   
+       }
+       .nav-item:hover{
+        background-color: black;
+        border-radius: 25px;
+        transition-duration: 0.5s;
+        }
+        .nav-item:hover a{
+            
+            color: white !important;
+    
+        }
+
+        
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+    padding-top: 9px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+  
+.boxes{
+    margin-top: 50px;
+    /* background-color: rgba(0, 0, 0, 0.418); */
+    color: white;
+ text-align: center;
+   
+ margin-bottom: 50px;
+ border-radius: 20px;
+
+ 
+   
+}
+
+.boxes h1{
+    margin-top: 10px;
+}
+
+.boxes h1{
+    font-family: 'Bebas Neue', cursive;
+ letter-spacing: 2px;
+ color: black;
+    
+}
+.boxes h4{
+    text-decoration: none;
+    color: #3B5998 ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    filter: drop-shadow(10px 20px 5px 10px rgb(8, 6, 6));
+}
+.boxes a{
+    text-decoration: none !important;
+
+}
+.boxes .fa-facebook{
+    transition:  all 0.5s ease-in;
+
+}
+.boxes h4:hover .fa-facebook{
+    display: inline-block;
+    transform: rotate(360deg);
+    background:linear-gradient(90deg,#3B5998,red);
+
+}
+.boxes a span{
+    transition:  all 0.5s ease-in;
+}
+
+.boxes a h4:hover span {
+
+    color: red;
+    transform: translateX(30px);
+}
+.boxes h5{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+.boxes h5 span:hover a  {
+    color: red;
+}
+.boxes h5 span a{
+    color:#3B5998;
+    font-weight: 600;
+
+}
+.number{
+    margin-top: 20px;
+    color: #3B5998 !important;
+}
+.places{
+
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: 'Caladea', serif;
+   
+}
+.places:hover{
+    background:linear-gradient(45deg,#89f6feb9,#66a6ffce);
+    
+}
+.places h4{
+    font-size: 25px;
+    color: rgb(255, 2, 2);
+
+}
+.places h1{
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+    color:black;
+}
+.heading-area{
+    text-align: center;
+    margin-top: 10px;
+
+}
+.heading-area h4{
+    font-size: 30px;
+
+}
+
+.area-names{
+   text-transform: uppercase;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+ 
+}
+
+.note{
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgba(105, 200, 245, 0.7);
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.note-h4{
+    color: red;
+    line-height: 40px;
+    letter-spacing: 8px;
+    animation: infinite cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    font-size: 25px ;
+    font-family: 'Vollkorn', serif;
+}
+.home-delivery{
+    color:brown;
+}
+.footer{
+    color: white;
+    background-color: rgb(59, 57, 57);
+    padding-top: 10px;
+    padding-bottom: 1px;
+    line-height: 15px;
+    
+}
+
+
+@media only screen and (max-width: 1000px){
+
+    .navbar{
+        font-size: 20px;
+         }
+        .nav-item:hover{
+         border-radius: 0px;
+         width: 100%;
+        }
+        .nav-link{
+            text-align: center !important;
+        }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 500px){
+
+    .navbar{
+   font-size: 17px;
+    }
+   .nav-item:hover{
+    border-radius: 0px;
+    width: 100%;
+   }
+   .nav-link{
+       text-align: center !important;
+   }
+   .note{
+     margin-bottom: 10px ;
+
+   }
+    .note-h4{
+        line-height: 27px;
+        letter-spacing: 0px;
+        font-size: 19px;
+
+    }
+
+    .heading-area h1{
+        font-size: 26px;
+    }
+    .area-names h4{
+        font-size: 18px;
+    }
+    .area-names {
+     margin-bottom: 0px ;
+        padding-bottom: 4px;
+    }
+    .places{
+        border-radius: 0px;
+
+    }
+    .boxes{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+.boxes h1{
+    font-size: 30px;
+}
+.boxes h4 i{
+    font-size: 15px;
+}
+.fa-facebook{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 8px;
+}
+.boxes h4 span {
+    font-size: 18px;
+}
+.boxes h5 {
+    font-size: 18px;
+}
+.boxes h5 span {
+    font-size: 18px;
+}
+.fa-envelope{
+    font-size: 15px;
+}
+.boxes h4{
+    font-size: 18px;
+}
+.footer p{
+    margin-left: 0px !important;
+    font-size:11px;
+    padding-top: 3px;
+    line-height: normal;
+}
+
+}
